@@ -1,6 +1,6 @@
 import Foundation
 
-public final class Response: CustomDebugStringConvertible, Equatable {
+public class Response: CustomDebugStringConvertible, Equatable {
     public let statusCode: Int
     public let data: NSData
     public let response: NSURLResponse?
